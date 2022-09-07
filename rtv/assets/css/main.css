@@ -409,6 +409,17 @@ footer > p {
   height: 600px;
 }
 
+.row3 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  padding-bottom: 40px;
+}
+
 .row > * {
   box-sizing: border-box;
 }
@@ -511,6 +522,16 @@ footer > p {
 }
 
 .row2 > .col-other {
+  width: 400px;
+  height: 550px;
+}
+
+.row3 > .col-feature {
+  width: 66.66667%;
+  height: 500;
+}
+
+.row3 > .col-other {
   width: 400px;
   height: 550px;
 }
